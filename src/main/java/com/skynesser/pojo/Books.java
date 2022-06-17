@@ -47,4 +47,14 @@ public class Books {
     public void setDetail(String detail) {
         this.detail = detail;
     }
+
+    @Override
+    public String toString() {
+        return "Books{" +
+                "bookID=" + bookID +
+                ", bookName='" + bookName + '\'' +
+                ", bookCounts=" + bookCounts +
+                ", detail='" + detail + '\'' +
+                '}';
+    }
 }
